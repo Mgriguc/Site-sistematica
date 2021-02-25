@@ -235,13 +235,28 @@ footer .rodape001 a:hover {
         font-size: 70%;
     }
 } 
+@media (max-width: 800px) {
+    html {
+        font-size: 60%;
+    }
+    .links-int {
+        top: 70%;
+    }
+    .links-int ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .links-int ul li {
+        padding-bottom: 10px;
+    }
+} 
 
 @media (max-width: 414px) {
     html {
         font-size:  50%;
     }
     .links-int {
-        top: 80%;
+        top: 70%;
     }
     .links-int ul {
         display: flex;
@@ -256,7 +271,7 @@ footer .rodape001 a:hover {
         font-size:  50%;
     }
     .links-int {
-        top: 80%;
+        top: 70%;
     }
     .links-int ul {
         display: flex;
